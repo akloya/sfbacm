@@ -1,0 +1,115 @@
+# Page settings
+
+baseURL = "https://sfbacm.github.io/"
+languageCode = "en"
+title = "Bay Area Cotton Masks"
+theme = "hugo-business-frontpage-theme"
+#googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Priyanka Patel"
+    description = "Business Frontpage - A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header"
+
+    [params.navbar]
+        name = "Bay Area Cotton Masks"
+        url = "#"
+
+    [params.header]
+        #name = "Bay Area Cotton Masks"
+        tagline = "A group of awesome Bay Area people who want to help with sewing cotton masks and the related to mask-making activities to support our medics and others in need in the times of COVID-19 pandemic."
+
+    [params.summary]
+        url = "#"
+
+        [params.summary.description]
+
+        [[params.summary.description.items]]
+        description = "We care about our healthcare professionals."
+        [[params.summary.description.items]]
+        description = "We want to help with what we can. We make cotton masks!"
+        [[params.summary.description.items]]
+        description = "We beat covid19 in exponential growth category (jump-started from 5 to 250+ in 3 days of March 2020 and growing."
+        [[params.summary.description.items]]
+        description = "No profit, No money. 100% genuine volunteers."
+
+
+        [params.summary.contact]
+        name = "B.A.C.M Admins"
+        #address1 = "3481 Melrose Place"
+        #address2 = "Beverly Hills, CA 90210"
+        phone = "415.857.4397"
+        email = "Info@SFBACM.org"
+
+
+
+
+
+
+    [params.projects]
+
+        [[params.projects.sections]]
+        # title = "Section 1"
+
+        [[params.projects.sections.rows]]
+        # title = "Section 1, Row 1"
+
+        [[params.projects.sections.rows.items]]
+        title = "HealthCare Provider Mask Request Form"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        url = "https://forms.gle/yDYPUczZP7piiyVE6"
+        imageUrl = "images/Healthcare.jpg"
+        #https://github.com/ppatelcloud/some-images/blob/master/mask1.jpg"
+        [[params.projects.sections.rows.items]]
+        title = "Sewing Volunteer Form"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
+        url = "https://forms.gle/Kt4WDjFpiPib6TUe8"
+        imageUrl = "images/sew1.jpg"
+        [[params.projects.sections.rows.items]]
+        title = "Non-Sewing Volunteer Form"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
+        url = "https://forms.gle/k9VwNZWnpwP331k69"
+        imageUrl = "images/nonsew1.jpeg"
+
+        [[params.projects.sections.rows]]
+        # title = "Section 1, Row 2"
+
+        [[params.projects.sections.rows.items]]
+        title = "Supplies Donations Form"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        url = "https://forms.gle/BJLH29f7yKfBzVru7"
+        imageUrl = "images/supplies.jpg"
+        [[params.projects.sections.rows.items]]
+        title = "Gift Cards Donations"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
+        url = "https://forms.gle/ZVusGpwnENyS7fgv7"
+        imageUrl = "images/giftcard.png"
+
+
+
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/company/SFBACM"
+    name = "linkedin"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://www.facebook.com/groups/SFBACM"
+    name = "facebook"
+    weight = 2
+
+[[menu.icon]]
+    url = "mailto:info@SFBACM.org"
+    name = "envelope-o"
+    weight = 3
+
+
+    [params.footer]
+        copyright = "Copyright © 2020; all rights reserved."
+
+
+
